@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amin Saadaoui Home Page</title>
     <style>
-
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
@@ -39,17 +38,33 @@
     <main>
         <h2>Welcome</h2>
         <p>This is my personal homepage as a student at UNC Charlotte. You can find links to my projects and profiles below.</p>
+        
+        <!-- Link to ITIS 3135 Course Page -->
+        <p>
+            <a href="itis3135">Click here for the ITIS 3135 Course Page</a>
+        </p>
+
+        <p>This page is dedicated to my ITIS 3135 course where I share my projects and assignments.</p>
     </main>
     <footer>
-        <nav>
-            <a href="https://github.com/yourgithubusername">GitHub</a> | 
-            <a href="itis3135/">ITIS 3135</a> | 
-            <a href="https://www.linkedin.com/in/amin-saadaoui">LinkedIn</a> | 
-            <a href="https://https://github.com/aminxsaadaoui">GitHub Pages</a> | 
-            <a href="https://webpages.charlotte.edu/asaadao1/itis3135/index.html">Click here to visit my ITIS 3135 Home Page</a>
-
-        </nav>
+        <a href="https://github.com/yourgithubusername">GitHub</a> | 
+        <a href="itis3135">ITIS 3135</a> | 
+        <a href="https://www.linkedin.com/in/amin-saadaoui">LinkedIn</a> | 
+        <a href="https://github.com/aminxsaadaoui">GitHub Pages</a> | 
+        <a href="https://webpages.charlotte.edu/asaadao1/itis3135/index.html">Click here to visit my ITIS 3135 Home Page</a>
+            <div>
+                <a id="validation-link-html">
+                    <img src="images/validation_html.gif" alt="Validate HTML">
+                </a>
+                <a id="validation-link-css">
+                    <img src="images/validation_css.gif" alt="Validate CSS">
+                </a>
+            </div>
     </footer>
+    <script>
+        document.getElementById("validation-link-html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+        document.getElementById("validation-link-css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+    </script>
 </body>
 </html>
  
